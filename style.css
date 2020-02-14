@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+header{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E90FF;
+}
+.imageheader{
+    max-width: 20%;
+}
+.blockfirsth{
+    display: flex;
+    align-items: center;
+}
+.blockfirstText{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+}
+.blocksecondh{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    max-width: 42%;
+    display: flex;
+    align-items: center;
+    border-radius: 8%;
+    font-size: 0.6rem;
+    background-color: #fff;
+}
+.imagebuttom{
+    max-width:35% ;
+}
+.buttonone{
+    color: #00008B;
+}
+.buttontwo{
+    color: 	#6495ED;
+}
