@@ -30,6 +30,7 @@ button{
     max-width: 42%;
     display: flex;
     align-items: center;
+    border: none;
     border-radius: 8%;
     font-size: 0.6rem;
     background-color: #fff;
@@ -42,4 +43,52 @@ button{
 }
 .buttontwo{
     color: 	#6495ED;
+}
+.sectionprincipal{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top:64px;
+}
+.sectionprincipalBlock{
+    min-width:90%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url(assets/image_rotate.png);
+    background-size: cover;
+}
+.blockimages{
+    min-width:105%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: -24px;
+    /* background: yellow; */
+}
+.blockimagesInd{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+}
+.sectionprincipalBlocktext{
+    margin: 20% 0 0 3%;
+}
+.sectionprincipalTitle{
+    width: 290px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    background: #1E90FF;
+}
+.sectionprincipalText{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    
 }
