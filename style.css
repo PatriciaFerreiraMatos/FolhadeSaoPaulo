@@ -47,7 +47,8 @@ button{
 .sectionprincipal{
     max-width: 100vw;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top:64px;
 }
 .sectionprincipalBlock{
@@ -89,6 +90,147 @@ button{
 .sectionprincipalText{
     font-size: 1.8rem;
     color: #fff;
+    font-weight: bold;    
+}
+.blockcircles{
+    max-width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.sectionprincipalCircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 7px;
+    background-color: darkgrey;
+}
+.circlecolor{
+    background-color:#1E90FF ;
+}
+.sectioncacilds{
+    max-width:100vw;
+    margin:4% 5% 0 5%;
+}
+.sectioncacildsBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.sectioncacildsBlock__sub{
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+}
+.cacildsone{
+    background-image: url(assets/highlight-01.png);
+}
+.cacildstwo{
+    background-image: url(assets/highlight-02.png);
+}
+.cacildsthree{
+    background-image: url(assets/highlight-03.png);
+}
+.cacildsblockText{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    margin-top: 160px;
+    padding: 3px;
+    background-color: rgba(255,69,0,0.5);
+}
+.sectiondivoltis, .sectionlast{
+    max-width:100vw;
+    display: flex;
+    justify-content: space-between;
+    margin:4% 5% 0 5%;
+}
+.blockdivoltis{
+    display: flex;
+    justify-content: space-between;
+}
+.sectiondivoltistitle, .cacildstitle{
+    font-size: 1.5rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 0 0 9px 0;
+}
+.sectiondivoltisBlock{
+    width: 65%;
+}
+.imageartigles{
+    width: 90%;
+}
+.imageartigleone, .imageartigletwo{
+    width: 97%;
+}
+hr{
+    margin: 20% 0 20% 0;
+}
+.linhaartigles{
+    margin:10% 5% 10% 0%;
+}
+.linhaartigless{
+    margin:11% 5% 10% 0%;
+}
+.titleartigle, .sectionlastBlock__title{
+    font-size: 0.9rem;
+    color: #1E90FF;
+
+}
+.textartigle{
+    font-size: 0.9rem;
+}
+.sectiondevoltisPublicidade{
+    margin-top:30px;
+    text-align: end;
+    color: grey;
+}
+.textpuclicidade{
+    font-size: 0.8rem;
+}
+.sectionlastBlock__title, .sectionlastBlocktwo__title{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.sectionlastBlock__text{
+    font-size: 1.1rem;
+}
+.sectionlastBlock__line{
+    margin: 28px 0 28px 0;
+}
+.sectionlastBlocktwo__title, .laststitles{
+    color: rgba(255,69,0);
+}
+.sectionlastBlocktwo__blocks{
+    display:flex;
+    margin: 0 0 31px 0;
+}
+.sectionlastBlocktwo__sub{
+    margin: 0 0 0 7px;
+}
+.sectionlastBlocktwo__subTexts{
+    font-size: 0.9rem;
+}
+.lastsectiondefined{
+    text-align: end;
+    background-color:#1E90FF;
+    margin: 60px 0 0 0;
+    padding: 10px 30px 10px 0;
+}
+.lastsectiondefinedText{
+    font-size: 1.2rem;
     font-weight: bold;
-    
+    color: #fff; 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: 	#2F4F4F;
+}
+.footerblock{
+    margin: 30px 0 30px 30px;
+}
+.footertext{
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #fff;
 }
